@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue Dec 07 18:53:45 EET 2021","Tue Dec 07 18:54:51 EET 2021","66123","","Reset Password","","Reset Password","Forget Password With Not Registered Email","Forget Password With Not Registered Email",""
+"broken","Tue Dec 07 18:56:39 EET 2021","Tue Dec 07 18:57:02 EET 2021","22961","","Login","","Login","Successful Login","Successful Login",""
+"broken","Tue Dec 07 18:54:51 EET 2021","Tue Dec 07 18:54:56 EET 2021","4728","","Reset Password","","Reset Password","Send Reset Password","Send Reset Password",""
+"passed","Tue Dec 07 18:55:59 EET 2021","Tue Dec 07 18:56:39 EET 2021","40055","","Login","","Login","Login With Wrong Password","Login With Wrong Password",""
+"broken","Tue Dec 07 18:54:43 EET 2021","Tue Dec 07 18:55:59 EET 2021","76560","","Login","","Login","Login With Not Registered Email","Login With Not Registered Email",""

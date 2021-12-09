@@ -1,0 +1,70 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Forget Password With Not Registered Email",
+    "uid" : "e2355537064a67d4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1638896025717,
+      "stop" : 1638896091840,
+      "duration" : 66123
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emulator-5554-9" ]
+  }, {
+    "name" : "Login With Not Registered Email",
+    "uid" : "47bdc109d52136e8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1638896083313,
+      "stop" : 1638896159873,
+      "duration" : 76560
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emulator-5554-9" ]
+  }, {
+    "name" : "Send Reset Password",
+    "uid" : "3a696c9c945b4738",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1638896091841,
+      "stop" : 1638896096569,
+      "duration" : 4728
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emulator-5554-9" ]
+  }, {
+    "name" : "Login With Wrong Password",
+    "uid" : "7b8082337d11cb1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1638896159875,
+      "stop" : 1638896199930,
+      "duration" : 40055
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emulator-5554-9" ]
+  }, {
+    "name" : "Successful Login",
+    "uid" : "8fbddc8137a6f3d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1638896199931,
+      "stop" : 1638896222892,
+      "duration" : 22961
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emulator-5554-9" ]
+  } ]
+}

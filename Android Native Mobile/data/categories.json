@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 60000ms exceeded. The execution in the test \"Reset Password Forget Password With Not Registered Email\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\GitHub\\CMPLR-Technologies.Testing\\Mobile\\test\\specs\\resetPassword.spec.js)",
+      "children" : [ {
+        "name" : "Forget Password With Not Registered Email",
+        "uid" : "e2355537064a67d4",
+        "parentUid" : "aa8c7a614b7ff70769fcf8dcb5f67286",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638896025717,
+          "stop" : 1638896091840,
+          "duration" : 66123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emulator-5554-9" ]
+      } ],
+      "uid" : "aa8c7a614b7ff70769fcf8dcb5f67286"
+    }, {
+      "name" : "Timeout of 60000ms exceeded. The execution in the test \"Login Login With Not Registered Email\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\GitHub\\CMPLR-Technologies.Testing\\Mobile\\test\\specs\\login.spec.js)",
+      "children" : [ {
+        "name" : "Login With Not Registered Email",
+        "uid" : "47bdc109d52136e8",
+        "parentUid" : "fd7aea61c4096950146b9dad9c2af327",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638896083313,
+          "stop" : 1638896159873,
+          "duration" : 76560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emulator-5554-9" ]
+      } ],
+      "uid" : "fd7aea61c4096950146b9dad9c2af327"
+    }, {
+      "name" : "An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details",
+      "children" : [ {
+        "name" : "Send Reset Password",
+        "uid" : "3a696c9c945b4738",
+        "parentUid" : "543e76bff9992b94e89def61e72fa036",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638896091841,
+          "stop" : 1638896096569,
+          "duration" : 4728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emulator-5554-9" ]
+      } ],
+      "uid" : "543e76bff9992b94e89def61e72fa036"
+    }, {
+      "name" : "Can't call elementClick on element with selector \"android=new UiSelector().resourceId(\"com.cmp.cmplr:id/login_email\")\" because element wasn't found",
+      "children" : [ {
+        "name" : "Successful Login",
+        "uid" : "8fbddc8137a6f3d",
+        "parentUid" : "c3486951e301363372a58e7ce98ba8f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638896199931,
+          "stop" : 1638896222892,
+          "duration" : 22961
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emulator-5554-9" ]
+      } ],
+      "uid" : "c3486951e301363372a58e7ce98ba8f1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
